@@ -1,0 +1,94 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+#lobby {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#addPage, #assessmentPage, #viewAllSched {
+    display: none;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+nav{
+    display: none;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+input, select {
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+h3 {
+    color: #2c3e50;
+}
+
+#studentName {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+
+#assignedSched table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#assignedSched th, #assignedSched td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+#assignedSched th {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+#yearFilterSelect {
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+#year-level{
+    width: 20%;
+}
